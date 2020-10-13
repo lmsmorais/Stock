@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stock</string>
+    <string name="textview">TextView</string>
+    <string name="button1">Estoque Atual</string>
+    <string name="button2">Adicionar Produto</string>
+    <string name="add">Adicionar</string>
+    <string name="button3">Fazer Pedido de Reposição</string>
+    <string name="enviarReposicao">Enviar Pedido de Reposição</string>
+    <string name="pedido">Id do produto/nome/quantidade</string>
+    <string name="id">ID:</string>
+    <string name="nome_do_produto">Nome do produto</string>
+    <string name="quantidade">quantidade</string>
+</resources>

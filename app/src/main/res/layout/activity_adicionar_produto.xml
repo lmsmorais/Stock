@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383E3D">
+
+    <EditText
+        android:id="@+id/addProdutoId"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="textPersonName"
+        android:textColorHint="#79FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addProdutoNome"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nome_do_produto"
+        android:inputType="textPersonName"
+        android:textColorHint="#79FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProdutoId" />
+
+    <EditText
+        android:id="@+id/addProdutoQuantidade"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/quantidade"
+        android:inputType="textPersonName"
+        android:textColorHint="#79FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProdutoNome" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:background="#009688"
+        android:fontFamily="@font/faster_one"
+        android:text="@string/add"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProdutoQuantidade" />
+</androidx.constraintlayout.widget.ConstraintLayout>
