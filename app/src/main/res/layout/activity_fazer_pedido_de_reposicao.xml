@@ -7,32 +7,60 @@
     android:background="#383E3D">
 
     <EditText
-        android:id="@+id/mensagemDeReposicao"
+        android:id="@+id/edtid"
         android:layout_width="400dp"
         android:layout_height="55dp"
         android:layout_marginTop="35dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/pedido"
-        android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:hint="@string/id"
+        android:inputType="number"
         android:textColorHint="#79FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/edtProduto"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nome_do_produto"
+        android:inputType="textPersonName"
+        android:textColorHint="#79FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtid" />
+
+    <EditText
+        android:id="@+id/edtQtd"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/Quantidade"
+        android:inputType="number"
+        android:textColorHint="#79FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtProduto" />
+
     <Button
-        android:id="@+id/button4"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_marginTop="35dp"
         android:background="#009688"
         android:fontFamily="@font/faster_one"
-        android:onClick="onEnviarPedidoDeReposicao"
         android:text="@string/enviarReposicao"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="24sp"
+        android:onClick="onEnviarPedidoDeReposicao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mensagemDeReposicao" />
+        app:layout_constraintTop_toBottomOf="@+id/edtQtd" />
+    android:onClick="onEnviarPedidoDeReposicao"
 </androidx.constraintlayout.widget.ConstraintLayout>

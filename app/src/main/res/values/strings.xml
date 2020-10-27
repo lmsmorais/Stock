@@ -7,7 +7,7 @@
     <string name="button3">Fazer Pedido de Reposição</string>
     <string name="enviarReposicao">Enviar Pedido de Reposição</string>
     <string name="pedido">Id do produto/nome/quantidade</string>
-    <string name="id">ID:</string>
+    <string name="id">ID do produto:</string>
     <string name="nome_do_produto">Nome do produto</string>
-    <string name="quantidade">quantidade</string>
+    <string name="Quantidade">Quantidade</string>
 </resources>

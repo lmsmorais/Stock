@@ -15,12 +15,29 @@ public class FazerPedidoDeReposicaoActivity extends Activity {
 
     public void onEnviarPedidoDeReposicao(View view){
 
-        EditText viewMensagem = (EditText) findViewById(R.id.mensagemDeReposicao);
-        String txtMensagem = viewMensagem.getText().toString();
+        /* EditText viewMensagem = (EditText) findViewById(R.id.mensagemDeReposicao);
+        String txtMensagem = viewMensagem.getText().toString(); */
 
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, txtMensagem);
+
+
+        EditText edt;
+        String msg,qtd, produto, id ;
+
+        edt = (EditText) findViewById(R.id.edtid);
+        id = edt.getText().toString();
+
+        edt = (EditText) findViewById(R.id.edtQtd);
+        qtd = edt.getText().toString();
+
+        edt = (EditText) findViewById(R.id.edtProduto);
+        produto = edt.getText().toString();
+
+        msg = "Enviar "+ qtd + " unidades do produto " + produto + " id = " + id;
+
+        intent.putExtra(Intent.EXTRA_TEXT, "Fornecimento");
+        intent.putExtra(Intent.EXTRA_TEXT, msg);
 
         startActivity(intent);
     }

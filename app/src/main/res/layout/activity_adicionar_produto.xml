@@ -14,7 +14,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/id"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textColorHint="#79FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,8 +42,8 @@
         android:layout_marginTop="35dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/quantidade"
-        android:inputType="textPersonName"
+        android:hint="@string/Quantidade"
+        android:inputType="number"
         android:textColorHint="#79FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,5 +60,6 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="onClickddProdutoQuantidade"
         app:layout_constraintTop_toBottomOf="@+id/addProdutoQuantidade" />
 </androidx.constraintlayout.widget.ConstraintLayout>
