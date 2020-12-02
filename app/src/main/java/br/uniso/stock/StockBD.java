@@ -1,4 +1,4 @@
-/*
+
 package br.uniso.stock;
 
 import android.content.ContentValues;
@@ -29,7 +29,10 @@ public class StockBD extends SQLiteOpenHelper {
 
         db.execSQL(sql);
 
-        InsertStock(db,"ID" , "Produto" , "quantidade" );
+        InsertStock(db,"1" , "Pedra" , "234" );
+        InsertStock(db,"2" , "Ferro" , "654" );
+        InsertStock(db,"3" , "Aço" , "127" );
+
 
     }
     public  static  void  InsertStock(SQLiteDatabase db, String id, String produto, String quantidade){
@@ -73,4 +76,3 @@ public class StockBD extends SQLiteOpenHelper {
         }
     }
 }
- */

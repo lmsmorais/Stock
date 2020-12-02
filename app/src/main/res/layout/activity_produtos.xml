@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
     <ListView
-        android:id="@+id/list_opçoes"
+        android:id="@+id/lista_produtos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/opçoes"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

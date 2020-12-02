@@ -10,4 +10,9 @@
     <string name="id">ID do produto:</string>
     <string name="nome_do_produto">Nome do produto</string>
     <string name="Quantidade">Quantidade</string>
+    <string-array name="opçoes">
+        <item>Empresa1</item>
+        <item>________</item>
+
+    </string-array>
 </resources>

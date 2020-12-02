@@ -6,12 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-/*RA:
-* 00099147 - Luis Assunção
-* 00101445 - Ana Carolina Cabraitz
-* 00100142 - Pedro Tizl
-* 00099324 = Vinicius Marcelo
-* */
 public class MainActivity extends AppCompatActivity {
 
     @Override
